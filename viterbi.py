@@ -35,6 +35,7 @@ def viterbi(problem):
 
 problems = [
     dict(
+        # from https://youtu.be/AGl1a1NzY-c?t=588
         txt="they can fish",
         codes=[0, 1, 2, 3],
         features = ['START', 'N', 'V', 'END'],
@@ -54,6 +55,7 @@ problems = [
         labels="N-V-N"
     ),
     dict(
+        # from https://youtu.be/zoXe0DFduNA?t=518
         txt = "they can fish",
         codes = [0, 1, 2, 3],
         features = ['START', 'N', 'V', 'M', 'END'],
